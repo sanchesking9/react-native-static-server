@@ -87,7 +87,7 @@ class StaticServer {
 		}
 
 		if (appState === "background" && this.running) {
-			this.stop();
+			//this.stop();
 		}
 
 		if (appState === "inactive" && this.running) {
